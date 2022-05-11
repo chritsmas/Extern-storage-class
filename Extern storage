@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+// Christmas 1cs1
+
+extern int num1 = 1;
+extern int num2 = 2;
+int main()
+{
+int num1 = 3;
+int num2 = 4;
+int add = num1 + num2;
+printf("%d + %d = %d ", num1, num2, add);
+return 0;
+}
